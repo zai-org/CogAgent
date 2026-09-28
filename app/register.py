@@ -65,7 +65,7 @@ def click(params):
     Meta-operation: CLICK
     CLICK: Simulate a left-click at the center position of the box.
     """
-    pyautogui.doubleClick(params["box"])
+    pyautogui.click(params["box"])
 
 
 def double_click(params):
